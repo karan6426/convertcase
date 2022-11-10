@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reverse-text-generation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="b1">
+     <br>
+     <br>
+    <h1 > Backwards Text Generation </h1>
+    <p>Normal front facing text to backwards text. A simple online backward text generator tool that allows you to switch the way your text is facing. Simply write or paste the text in the left column and see it get converted in the right.</p>
+    <div class="b2">
+    <textarea  id="reverseElement" onkeyup="reverseString()" oninput="countWord2()" cols="80" rows="10"></textarea>
+    <textarea id="showReverseElement" cols="80" rows="10"></textarea>
+    </div>
+    <br>
+    <div style="display:flex">
+    
+    
+    <p > letter count :<span id="showcount"></span></p>
+
+    
+    <p> count word :
+        <span id="show"></span>
+    </p>
+    </div>
+    <br>
+    <br>
+    </div>
+
+    <script src="script1.js"></script>
+
+</body>
+</html>
